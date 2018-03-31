@@ -1,0 +1,11 @@
+[Desktop Entry]
+Actions=RunWithOptirun
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=application/x-shellscript;application/x-desktop;
+Actions=runwithoptirun
+
+[Desktop Action runwithoptirun]
+Name=Run with optirun
+Icon=nvidia-settings
+Exec=/usr/local/bin/runwithoptirun.sh %f
